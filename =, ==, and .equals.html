@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>=, ==, and .equals</title>
+  </head>
+  <body>
+    <h1 style="text-align:center">The differences between =, ==, and .equals</h1>
+    <p style="font-size:18px">The = is simply and assignment operator, meaning it
+                              assigns the values on the right side to the left
+                              side.  A simple example is a = 5, that assigns
+                              the value 5 to variable a.  A little more complex
+                              example would be c = 7 + 3 that assigns the
+                              value of 10(7+3) to c.
+    </p>
+    <p style="font-size:18px">The == is a relational operator, meaning it compares
+                              two values and returns true of false.  2 simple
+                              examples would be 8 == 8 which would return true
+                              and 9 == 8 which would return false.  A couple of
+                              a little more complex examples 8 == 4 + 4 would
+                              return true and 4 + 5 == 8 would be false.  You
+                              can do arithmetic on either or both sides of this
+                              operator and it will return true if the sides are
+                              equal and false if they are not.  Use caution when
+                              using == on Strings as it might not work the way
+                              you expect (keep reading).
+    </p>
+    <p style ="font-size:18px"> Which brings us to .equals which is basically
+                                a way to compare Strings in java.  If you try
+                                to use == to compare to string variables it will
+                                always return false unless they are the same, ie
+                                occupy the same location in memory.  If you use
+                                .equals it will compare the contents of the String
+                                and return true if they match.
+
+    <p style="font-size:18px">  In conclusion, you would use = to assign a value
+                                any variable (Int, String, Double, etc.).  You
+                                would use == to compare numbers(Int, Double) or
+                                to see if two variables are the same object.  You
+                                would use .equals to see if two strings had the
+                                same contents.
+
+
+    </p>
+  </body>
+</html>
